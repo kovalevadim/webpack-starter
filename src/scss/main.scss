@@ -1,24 +1,3 @@
-$primary: #5a9c49;
-$secondary: #646464;
-$fw-light: 300;
-$fw-regular: 400;
-.banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-h1 {
-  margin-bottom: 0.5rem;
-  font-weight: $fw-light;
-  color: $primary;
-}
-h2 {
-  margin-bottom: 0.5rem;
-  font-weight: $fw-regular;
-  color: $primary;
-}
-p {
-  color: $secondary;
-}
+@import
+'variables.scss',
+'base.scss'
